@@ -91,78 +91,6 @@ rescue-route-system/
 └── .env
 ```
 
----
-
-Installatio
-Clone the Repository
-
-```bash
-git clone https://github.com/your-username/rescue-route-system.git
-```
-
- Navigate to Project Folder
-
-```bash
-cd rescue-route-system
-```
-
-Install Frontend Dependencies
-
-```bash
-cd client
-npm install
-```
-
-Install Backend Dependencies
-
-```bash
-cd ../server
-npm install
-```
-
----
- Running the Project
-
-Start Backend Server
-
-```bash
-npm start
-```
-
- Start Frontend
-Open another terminal:
-
-```bash
-cd client
-npm start
-```
-
- Mapbox Setup
-
-Create a Mapbox account from:
-
-- https://www.mapbox.com/
-
-Get your Mapbox API key and add it to the `.env` file:
-
-```env
-MAPBOX_TOKEN=your_mapbox_token
-```
-
----
-
- Environment Variables
-
-Create a `.env` file inside the server folder:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection
-MAPBOX_TOKEN=your_mapbox_token
-```
-
----
-
  AI Functionalities
 
 - Dynamic route optimization
@@ -199,7 +127,6 @@ Future Enhancements
 - Satellite monitoring
 - AI chatbot support
 - IoT disaster sensors
-
  Team Members
 Pranathi
 Anaghaa
